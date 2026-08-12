@@ -22,7 +22,7 @@ import {
   Clock3,
 } from "lucide-react";
 
-const PHONE_NUMBER = "09123480518";
+const PHONE_NUMBER = "09123112684";
 
 const products = [
   {

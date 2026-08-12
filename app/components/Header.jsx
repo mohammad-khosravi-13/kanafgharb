@@ -9,6 +9,7 @@ import {
   Wrench,
   Mail,
   Sparkles,
+  Building2,
 } from "lucide-react";
 
 const navItems = [
@@ -21,6 +22,11 @@ const navItems = [
     label: "محصولات کناف",
     href: "#products",
     icon: Package,
+  },
+  {
+    label: "پروژه‌ها",
+    href: "#projects",
+    icon: Building2,
   },
   {
     label: "خدمات کناف",
@@ -112,7 +118,7 @@ export default function Header() {
           ===================================================== */}
           <nav
             aria-label="منوی اصلی"
-            className="flex min-w-0 items-center justify-center gap-3 text-sm font-medium lg:gap-6"
+            className="flex min-w-0 items-center justify-center gap-3 text-sm font-medium lg:gap-5"
           >
             {navItems.map(({ label, href, icon: Icon }) => (
               <a
@@ -129,7 +135,9 @@ export default function Header() {
                   className="h-4 w-4 shrink-0 transition-transform duration-300 group-hover:scale-110"
                 />
 
-                <span className="whitespace-nowrap">{label}</span>
+                <span className="whitespace-nowrap">
+                  {label}
+                </span>
 
                 <span
                   aria-hidden="true"
@@ -227,6 +235,10 @@ export default function Header() {
 
         .animate-gradient {
           animation: gradient 3s ease infinite;
+        }
+
+        html {
+          scroll-behavior: smooth;
         }
       `}</style>
     </>

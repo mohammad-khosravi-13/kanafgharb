@@ -22,7 +22,7 @@ export default function Home() {
         <HeroSlider />
         <Features />
         <Products />
-        {/* <Projects /> */}
+        <Projects /> 
         <Testimonials />
         <Contact />
         <Map />

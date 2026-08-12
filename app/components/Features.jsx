@@ -164,7 +164,7 @@ export default function Features() {
             </p>
 
             <a
-              href="tel:09123480518"
+              href="tel:09123112684"
               aria-label="تماس با کناف سازه غرب برای دریافت مشاوره"
               className="mt-6 inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-bold text-slate-900 transition-all duration-300 hover:-translate-y-1 hover:bg-indigo-50"
             >
