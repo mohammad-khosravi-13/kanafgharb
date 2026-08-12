@@ -409,7 +409,7 @@ export default function Contact() {
                     </p>
 
                     <p className="mt-1 text-sm font-bold leading-7 text-slate-900">
-                      ملارد، سه‌راه مارلیک، کوچه ولیعصر
+                      ملارد، سه‌راه مارلیک،بلوار ولایت کوچه ولیعصر
                     </p>
                   </div>
                 </div>
